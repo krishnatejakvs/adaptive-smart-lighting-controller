@@ -1,2 +1,2 @@
 # adaptive-smart-lighting-controller
-Developed an embedded system implementing adaptive intelligent control strategy for artificial light and window shade to achieve energy efficiency. The system runs on Power over Ethernet(PoE). 
+Developed an embedded system implementing adaptive intelligent control strategy for artificial light and window shade to achieve energy efficiency. The system runs on Power over Ethernet(PoE). The system runs fuzzy logic on one arduino module acting as server connected to window shades as well, run over stepper motors. other arduino is the client where the sensor readings are obeseved and commands to the first arduino is sent over ethernet. 
